@@ -15,13 +15,13 @@ on:
 
 env:
   # Set the Azure Resource Group name
-  AzureResourceGroup: YOUR_RESOURCE_GROUP_NAME
+  AzureResourceGroup: nlu-devops
   # Set the Azure LUIS Authoring Resource name
-  AzureLuisAuthoringResourceName: YOUR_LUIS_AUTHORING_RESOURCE_NAME
+  AzureLuisAuthoringResourceName: nlu-devops-auth-test
   # Set the Azure LUIS Prediction Resource name
-  AzureLuisPredictionResourceName: YOUR_LUIS_PREDICTION_RESOURCE_NAME
+  AzureLuisPredictionResourceName: luis-nlu-devops
   # Set the Azure Storage Account name
-  AzureStorageAccountName: yourstorageaccountname
+  AzureStorageAccountName: nludevopsstorage
   
   # Set the name of the master LUIS app
   LUIS_MASTER_APP_NAME: LUISDevOps-master
